@@ -6,7 +6,7 @@ var webUrl = document.getElementById("url")
 
 
 if(localStorage.getItem("website name") !== null){
-    webSites = JSON.parse(localStorage.getItem("website name"))
+    webSitesName = JSON.parse(localStorage.getItem("website name"))
     DisplayWebsite()
 }
 
